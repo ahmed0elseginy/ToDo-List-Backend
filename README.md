@@ -6,7 +6,11 @@ To enhance usability and documentation, the application integrates Swagger, whic
 Key Features:
 
 Create: Add new tasks to the to-do list.
+
 Read: Retrieve the list of tasks or specific task details.
+
 Update: Modify existing tasks.
+
 Delete: Remove tasks from the list.
+
 This program is perfect for understanding the basics of RESTful APIs and practicing CRUD operations without the complexity of a database setup.
