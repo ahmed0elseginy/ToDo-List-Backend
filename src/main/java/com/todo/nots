@@ -1,0 +1,40 @@
+POST http://localhost:9000/api/todos
+
+{
+    "title": "تعلم Spring Boot",
+    "description": "دورة تعليمية متقدمة لتطوير تطبيقات Java"
+}
+
+
+GET http://localhost:9000/api/todos
+{
+    {
+        "id": 1,
+        "title": "تعلم Spring Boot",
+        "description": "دورة تعليمية متقدمة لتطوير تطبيقات Java",
+        "completed": false,
+        "createdAt": "2024-02-15T10:30:45.123"
+    }
+}
+
+PUT http://localhost:9000/api/todos/{id}
+[
+    {
+        "id": 1,
+        "title": "إنهاء المشروع",
+        "description": "إكمال المشروع الحالي قبل الموعد النهائي",
+        "completed": true,
+        "createdAt": "2024-02-14T15:45:22.456"
+    }
+
+    {
+        "id": 2,
+    }
+]
+
+
+DELETE http://localhost:9000/api/todos/{id}
+{
+    "id": 1
+}
+
