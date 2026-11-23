@@ -1,6 +1,4 @@
 !.env.example
-.env.*
-.env
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -34,3 +32,4 @@ build/
 
 ### VS Code ###
 node_modules
+config.bat
