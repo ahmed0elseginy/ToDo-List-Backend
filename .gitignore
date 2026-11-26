@@ -33,3 +33,7 @@ build/
 ### VS Code ###
 node_modules
 config.bat
+# Secrets (restored after the malware removed them)
+.env
+.env.*
+!.env.example
